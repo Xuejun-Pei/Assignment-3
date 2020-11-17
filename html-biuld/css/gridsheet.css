@@ -1,4 +1,34 @@
 body{
 	background: grey
-	
+
+}
+.Text{
+	font-size: 200px;
+	font-family:Arial;
+}
+
+a{font-size:10px;
+	font-color:orange;
+}
+
+a:hover{
+	text-decoration: none;
+	color:white;
+	transition: color 0.2s;
+
+}
+
+
+.XuejunsContainer{
+	background: orange;
+	display:grid;
+	grid-template-columns: 100px 3fr 20%;
+	grid-template-rows: 40% 20% 40%;
+	min-height: 100px;
+}
+.interior1{background: white;}
+.interior2{background: blue;}
+
+.interior1, .interior2{
+	border:1px solid #000;
 }
