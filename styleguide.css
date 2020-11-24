@@ -1,0 +1,9 @@
+p{
+	cursor:pointer;
+}
+
+.menu{
+	background:red;
+	height:50px;
+	transition:all;
+}
